@@ -5,5 +5,48 @@
 body {
     margin: 0;
     padding: 0;
+}
 
+.header {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 760px;
+    height: 70px;
+    background-color: #A9BFE4;
+}
+
+.logo {
+    width: 136.48px;
+    height: 55px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 333px;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 55px;
+    height: 20px;
+    right: 65px;
 }
