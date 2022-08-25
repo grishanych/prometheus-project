@@ -56,7 +56,12 @@ li a {
     margin: 0 auto;
     width: 760px;
     height: 455px;
-    /* background-color: grey; */
+    display: flex;
+}
+
+.left_side_content {
+    flex-direction: column;
+    width: 50%;
 }
 
 .main_title {
@@ -129,5 +134,10 @@ li a {
     line-height: 16px;
     color: #989EC3;
     background-color: #fff;
+}
 
+.right_side_img {
+    display: flex;
+    align-items: center;
+    width: 50%;
 }
