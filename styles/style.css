@@ -60,7 +60,6 @@ li a {
 }
 
 .main_title {
-    /* display: grid; */
     position: relative;
     margin: 0;
     width: 300px;
@@ -73,7 +72,6 @@ li a {
     font-size: 24px;
     line-height: 31px;
     color: #351F21;
-    /* background-color: green; */
 }
 
 .description {
@@ -90,7 +88,6 @@ li a {
     font-size: 14px;
     line-height: 18px;
     color: #351F21;
-    /* background-color: blueviolet; */
 }
 
 .buttons_section_1 {
@@ -104,7 +101,6 @@ li a {
     text-align: center;
     width: 282px;
     height: 30px;
-    /* background-color: lightgreen; */
 }
 
 .basket_btn {
