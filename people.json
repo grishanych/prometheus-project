@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "firstName": "John",
+        "lastName": "Doe",
+        "image": "https://i.ibb.co/P9mTcQT/bouquet-cart3.png"
+    },
+    {
+        "id": "2",
+        "firstName": "Mary",
+        "lastName": "Peterson",
+        "image": "https://i.ibb.co/P9mTcQT/bouquet-cart3.png"
+    },
+    {
+        "id": "3",
+        "firstName": "George",
+        "lastName": "Hansen",
+        "image": "https://i.ibb.co/P9mTcQT/bouquet-cart3.png"
+    }
+]
