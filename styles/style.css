@@ -277,7 +277,7 @@ li a {
   gap: 0px 10px;
   width: 633px;
   height: 100%;
-  left: 63px;
+  margin-left: 63px;
   top: -7px;
   grid-auto-flow: row;
   grid-template-areas: "title_section_3 title_section_3 title_section_3 title_section_3" "img1_section_3 img2_section_3 img3_section_3 img4_section_3" "text1_section_3 text2_section_3 text3_section_3 text4_section_3";
@@ -364,4 +364,35 @@ li a {
   width: 150px;
   height: 52px;
   margin-top: -3px;
+}
+
+.section_4 {
+  display: flex;
+  position: relative;
+  margin-left: 63px;
+  margin-right: 65px;
+  flex-direction: column;
+}
+
+.all_items_flower_section_4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.title_section_4 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #351F21;
+}
+
+#flower_section_4_slide {
+  width: 200px;
+  height: 331px;
+  border: 3px solid salmon;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */
