@@ -2,43 +2,44 @@
 
 * {
     box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
+}
+
+body {
+    margin: 0 auto;
     padding: 0;
-  }
-  
-  .header {
+    width: 760px;
+}
+
+.header {
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: space-around;
     margin: 0 auto;
-    width: 760px;
+    width: 100%;
     height: 70px;
     background-color: $first-color-blue;
-  }
-  
-  .logo {
+}
+
+.logo {
     width: 136.48px;
     height: 55px;
     left: 16px;
     position: relative;
-  
-  }
-  
-  .nav {
+
+}
+
+.nav {
     display: flex;
     justify-content: space-between;
     width: 333px;
-  }
-  
-  nav li {
+}
+
+nav li {
     list-style-type: none;
-  }
-  
-  li a {
+}
+
+li a {
     text-decoration: none;
     font-family: "Lora";
     font-style: normal;
@@ -46,34 +47,34 @@
     font-size: 14px;
     line-height: 18px;
     color: #ffffff;
-  }
-  
-  .icons {
+}
+
+.icons {
     display: flex;
     justify-content: space-between;
     width: 55px;
     height: 20px;
     right: 65px;
-  }
-  
-  .section_1 {
+}
+
+.section_1 {
     margin: 0 auto;
-    width: 760px;
+    width: 100%;
     height: 455px;
     display: flex;
-  }
-  
-  .left_side_content {
+}
+
+.left_side_content {
     flex-direction: column;
     width: 50%;
-  }
-  
-  .main_title {
+}
+
+.main_title {
     position: relative;
     margin: 0;
     width: 300px;
     height: 64px;
-    left: 63px;
+    left: $left-indent;
     top: 163px;
     font-family: "Lora";
     font-style: normal;
@@ -81,15 +82,15 @@
     font-size: 24px;
     line-height: 31px;
     color: #351f21;
-  }
-  
-  .description {
+}
+
+.description {
     display: grid;
     position: relative;
     margin: 0;
     width: 303px;
-    height: 63px;
-    left: 63px;
+    height: $left-indent;
+    left: $left-indent;
     top: 177px;
     font-family: "Source Sans Pro";
     font-style: normal;
@@ -97,22 +98,22 @@
     font-size: 14px;
     line-height: 18px;
     color: #351f21;
-  }
-  
-  .buttons_section_1 {
+}
+
+.buttons_section_1 {
     position: relative;
     margin: 0;
     top: 193px;
-    left: 63px;
+    left: $left-indent;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     text-align: center;
     width: 282px;
     height: 30px;
-  }
-  
-  .basket_btn {
+}
+
+.basket_btn {
     width: 130px;
     border-radius: 50px;
     border: 0;
@@ -124,9 +125,9 @@
     font-size: 13px;
     line-height: 16px;
     color: #ffffff;
-  }
-  
-  .catalog_btn {
+}
+
+.catalog_btn {
     width: 130px;
     border: 2px solid #ffc2c7;
     border-radius: 50px;
@@ -137,33 +138,33 @@
     line-height: 16px;
     color: $second-color-darkblue;
     background-color: #fff;
-  }
-  
-  .right_side_img {
+}
+
+.right_side_img {
     display: flex;
     align-items: center;
     width: 50%;
-  }
-  
-  /* -------------------------------------------- */
-  
-  .section_2 {
+}
+
+/* -------------------------------------------- */
+
+.section_2 {
     margin: 0 auto;
-    width: 760px;
+    width: 100%;
     height: 405px;
     display: flex;
     flex-direction: column;
-  }
-  
-  .top_side_img {
+}
+
+.top_side_img {
     display: flex;
     width: 100%;
     justify-content: center;
     height: 145px;
     filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.25));
-  }
-  
-  .line {
+}
+
+.line {
     position: absolute;
     width: 20px;
     height: 0px;
@@ -171,9 +172,9 @@
     top: 14px;
     border: 1px solid #FFC2C7;
     transform: rotate(-90deg);
-  }
-  
-  .buttons_section_2 {
+}
+
+.buttons_section_2 {
     display: flex;
     justify-content: center;
     position: relative;
@@ -193,9 +194,9 @@
     background: $first-color-blue;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
-  }
-  
-  .bottom_side__content {
+}
+
+.bottom_side__content {
     display: flex;
     position: relative;
     height: 100%;
@@ -204,13 +205,13 @@
     background-repeat: no-repeat;
     background-position: 455px 70px;
     background-size: 350px 269.51px;
-  }
-  
-  .about_us {
+}
+
+.about_us {
     width: 45%;
-  }
-  
-  .title_section_2 {
+}
+
+.title_section_2 {
     position: relative;
     font-family: "Lora";
     font-style: normal;
@@ -220,12 +221,12 @@
     display: flex;
     align-items: center;
     color: #351f21;
-    left: 63px;
+    left: $left-indent;
     top: 24px;
-  }
-  
-  .description_section_2_1,
-  .description_section_2_2 {
+}
+
+.description_section_2_1,
+.description_section_2_2 {
     position: relative;
     top: 24px;
     left: 83px;
@@ -235,21 +236,21 @@
     font-size: 14px;
     line-height: 18px;
     color: #351f21;
-  }
-  
-  .social {
+}
+
+.social {
     display: flex;
     width: 50%;
     align-items: flex-end;
     justify-content: flex-end;
-  }
-  
-  .abstract_background {
+}
+
+.abstract_background {
     flex-direction: column;
     z-index: 2;
-  }
-  
-  .social_icons {
+}
+
+.social_icons {
     width: 5%;
     display: flex;
     flex-direction: column;
@@ -258,5 +259,94 @@
     height: 40%;
     top: 45%;
     position: relative;
-  
-  }
+
+}
+
+// -------------------------------------------------------------------------------
+.section_3 {
+    display: flex;
+    height: 156px;
+    background: rgba(169, 191, 228, 0.3);
+    background-image: url("/prometheus-project/images/abstract_background.png");
+    background-repeat: no-repeat;
+    background-position: 455px -190px;
+    background-size: 350px 269.51px;
+
+
+}
+
+.container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 10px;
+    width: 633px;
+    height: 100%;
+    left: $left-indent;
+    top: -7px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "title_section_3 title_section_3 title_section_3 title_section_3"
+        "img1_section_3 img2_section_3 img3_section_3 img4_section_3"
+        "text1_section_3 text2_section_3 text3_section_3 text4_section_3";
+}
+
+.title_section_3 {
+    grid-area: title_section_3;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: $second-color-darkblue;
+    justify-self: start;
+}
+
+.img1_section_3 {
+    grid-area: img1_section_3;
+
+}
+
+.img2_section_3 {
+    grid-area: img2_section_3;
+
+}
+
+.img3_section_3 {
+    grid-area: img3_section_3;
+
+}
+
+.img4_section_3 {
+    grid-area: img4_section_3;
+
+}
+
+.text1_section_3 {
+    grid-area: text1_section_3;
+    @include p_text_section_3;
+
+
+
+}
+
+.text2_section_3 {
+    grid-area: text2_section_3;
+    @include p_text_section_3;
+
+}
+
+.text3_section_3 {
+    grid-area: text3_section_3;
+    @include p_text_section_3;
+
+}
+
+.text4_section_3 {
+    grid-area: text4_section_3;
+    @include p_text_section_3;
+
+}
