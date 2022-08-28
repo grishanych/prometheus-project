@@ -1,0 +1,262 @@
+@import "_base";
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 760px;
+    height: 70px;
+    background-color: $first-color-blue;
+  }
+  
+  .logo {
+    width: 136.48px;
+    height: 55px;
+    left: 16px;
+    position: relative;
+  
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    width: 333px;
+  }
+  
+  nav li {
+    list-style-type: none;
+  }
+  
+  li a {
+    text-decoration: none;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: space-between;
+    width: 55px;
+    height: 20px;
+    right: 65px;
+  }
+  
+  .section_1 {
+    margin: 0 auto;
+    width: 760px;
+    height: 455px;
+    display: flex;
+  }
+  
+  .left_side_content {
+    flex-direction: column;
+    width: 50%;
+  }
+  
+  .main_title {
+    position: relative;
+    margin: 0;
+    width: 300px;
+    height: 64px;
+    left: 63px;
+    top: 163px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #351f21;
+  }
+  
+  .description {
+    display: grid;
+    position: relative;
+    margin: 0;
+    width: 303px;
+    height: 63px;
+    left: 63px;
+    top: 177px;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #351f21;
+  }
+  
+  .buttons_section_1 {
+    position: relative;
+    margin: 0;
+    top: 193px;
+    left: 63px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    text-align: center;
+    width: 282px;
+    height: 30px;
+  }
+  
+  .basket_btn {
+    width: 130px;
+    border-radius: 50px;
+    border: 0;
+    background: #ffc2c7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #ffffff;
+  }
+  
+  .catalog_btn {
+    width: 130px;
+    border: 2px solid #ffc2c7;
+    border-radius: 50px;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: $second-color-darkblue;
+    background-color: #fff;
+  }
+  
+  .right_side_img {
+    display: flex;
+    align-items: center;
+    width: 50%;
+  }
+  
+  /* -------------------------------------------- */
+  
+  .section_2 {
+    margin: 0 auto;
+    width: 760px;
+    height: 405px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top_side_img {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 145px;
+    filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.25));
+  }
+  
+  .line {
+    position: absolute;
+    width: 20px;
+    height: 0px;
+    left: -30px;
+    top: 14px;
+    border: 1px solid #FFC2C7;
+    transform: rotate(-90deg);
+  }
+  
+  .buttons_section_2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 20%;
+    bottom: 30%;
+    width: 130px;
+    height: 30px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: $first-color-blue;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+  }
+  
+  .bottom_side__content {
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url("/prometheus-project/images/abstract_background.png");
+    background-repeat: no-repeat;
+    background-position: 455px 70px;
+    background-size: 350px 269.51px;
+  }
+  
+  .about_us {
+    width: 45%;
+  }
+  
+  .title_section_2 {
+    position: relative;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    color: #351f21;
+    left: 63px;
+    top: 24px;
+  }
+  
+  .description_section_2_1,
+  .description_section_2_2 {
+    position: relative;
+    top: 24px;
+    left: 83px;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #351f21;
+  }
+  
+  .social {
+    display: flex;
+    width: 50%;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  
+  .abstract_background {
+    flex-direction: column;
+    z-index: 2;
+  }
+  
+  .social_icons {
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 40%;
+    top: 45%;
+    position: relative;
+  
+  }
