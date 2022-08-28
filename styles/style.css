@@ -23,7 +23,6 @@ body {
   height: 55px;
   left: 16px;
   position: relative;
-
 }
 
 .nav {
@@ -144,7 +143,6 @@ li a {
 }
 
 /* -------------------------------------------- */
-
 .section_2 {
   margin: 0 auto;
   width: 760px;
@@ -179,7 +177,7 @@ li a {
   bottom: 30%;
   width: 130px;
   height: 30px;
-  font-family: 'Lora';
+  font-family: "Lora";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -188,7 +186,7 @@ li a {
   align-items: center;
   text-align: center;
   color: #FFFFFF;
-  background: #A9BFE4;
+  background: #a9bfe4;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border: none;
 }
@@ -256,5 +254,4 @@ li a {
   height: 40%;
   top: 45%;
   position: relative;
-
-}
+}/*# sourceMappingURL=style.css.map */
