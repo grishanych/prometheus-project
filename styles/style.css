@@ -393,6 +393,106 @@ li a {
 #flower_section_4_slide {
   width: 200px;
   height: 331px;
-  border: 3px solid salmon;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 8px #FFC2C7;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.name,
+.flowers {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #351F21;
+}
+
+.name {
+  margin: 8px 0 0 0;
+}
+
+.flowers {
+  margin: 1px 0 0 0;
+}
+
+.price {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #351F21;
+  margin-top: 10px;
+}
+
+.to_cart {
+  width: 130px;
+  height: 30px;
+  border: 2px solid #FFC2C7;
+  border-radius: 50px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #989EC3;
+}
+
+.pagination {
+  width: 176px;
+  height: 50px;
+  margin: -10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ellipse_select {
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background: #FFC2C7;
+}
+
+.ellipse {
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background: #D9D9D9;
+}
+
+#target {
+  max-width: 100%;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.image-list {
+  position: relative;
+  float: left;
+  display: inline;
+}
+
+.image-styles {
+  margin: 15px;
+  border-radius: 5px;
+}
+
+.image-title {
+  background: #000;
+  width: 80%;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: #f7f7f7;
+  text-align: center;
+  padding: 2px;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  /* For IE8 and earlier */
 }/*# sourceMappingURL=style.css.map */
