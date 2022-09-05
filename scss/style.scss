@@ -619,8 +619,81 @@ li a {
 }
 
 
+// -----------------------------------------------------------
+.section_6 {
+    display: flex;
+    flex-direction: column;
+    width: 760px;
+    height: 470px;
+    overflow: hidden;
+}
+
+.title_section_6 {
+    position: relative;
+    left: $left-indent;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #351F21;
+    margin-top: 44px;
+    height: 28px;
+}
+
+.section_6_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 28px;
+    margin: 28px 60px 0 60px;
+}
+
+.step_section_6 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    width: 200px;
+    height: 160px;
+}
+
+.ellipse_sect_6 {
+    width: 65px;
+    height: 65px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px #FFC2C7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        font-family: 'Lora';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 51px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: $first-color-blue;
+        backdrop-filter: blur(4px);
+    }
+}
+
+.step_text {
+    @include p_text_about_price;
+    font-size: 13px;
+    line-height: 16px;
+}
 
 
+.flower_section_6 {
+    margin: -133px 0 0 685px;
+    transform: rotate(-55.59deg);
+}
 
 
 
