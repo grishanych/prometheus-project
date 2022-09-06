@@ -736,8 +736,154 @@ li a {
 }
 
 .flower_section_6 {
-  margin: -133px 0 0 685px;
+  margin: -130px 0 0 685px;
   transform: rotate(-55.59deg);
+}
+
+.footer {
+  height: 185px;
+  overflow: hidden;
+  background-color: #a9bfe4;
+}
+
+.flower_footer {
+  display: flex;
+  margin: -346px 0 0 744px;
+  transform: rotate(-55.59deg);
+}
+
+.logo_footer {
+  margin: 6px 0 0 312px;
+  width: 136.48px;
+  height: 55px;
+}
+
+.footer_info {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+  height: 75px;
+}
+
+.title_footer {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0 0;
+  color: #FFFFFF;
+  margin-right: 10px;
+}
+
+.text_footer {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  margin-top: 5px;
+}
+
+.footer_content {
+  position: relative;
+  display: flex;
+  margin: 5px 65px 0 65px;
+}
+
+.footer_social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 39%;
+  margin-left: 6%;
+}
+
+.footer_form {
+  position: relative;
+  margin-bottom: 13px;
+}
+
+.footer_form_pwd {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  width: 175px;
+  height: 26px;
+  background: #FFFFFF;
+  border-radius: 50px;
+  border: none;
+  padding-left: 12px;
+}
+
+.footer_form_pwd:focus {
+  outline: none;
+}
+
+.footer_form_pwd::-moz-placeholder {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 13px;
+  color: #ACACAC;
+}
+
+.footer_form_pwd:-ms-input-placeholder {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 13px;
+  color: #ACACAC;
+}
+
+.footer_form_pwd::placeholder {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 13px;
+  color: #ACACAC;
+}
+
+.footer_form_btn {
+  flex-wrap: nowrap;
+  position: absolute;
+  margin-left: -22px;
+  width: 89px;
+  height: 26px;
+  border: none;
+  background: #FFC2C7;
+  border-radius: 50px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  color: #FFFDFD;
+  z-index: 9;
+}
+
+.social_images {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.footer_rules {
+  align-self: flex-start;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 14px;
+  color: #FFFFFF;
 }
 
 #target {
